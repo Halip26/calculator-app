@@ -15,15 +15,21 @@ This is a simple calculator application built using Python's Tkinter library. It
 
 - Python 3.x
 - Tkinter (usually comes pre-installed with Python)
+  `pip install tkinter`
 - ctypes (for setting DPI awareness on Windows)
 
 ## Usage
 
 1. Clone or download the repository.
 2. Ensure you have Python installed on your system.
-3. Run the `calculator.py` file.
+3. Run the `calculator.py` file with command :
+
+   ```bash
+   python.exe calculator.py
+   ```
+
 4. Start performing calculations using the GUI interface.
-5. Explore the history of calculations and saved formulas for convenience.
+5. Explore the history of calculations and saved formulas for convenience. history of performing calcualtions in `history.json`.
 
 ## Additional Notes
 
