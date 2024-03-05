@@ -137,7 +137,7 @@ calcSide = Frame(root)
 calcSide.pack(side=LEFT, fill=BOTH, expand=1)
 
 # Entry Variable for the calculations
-entryVariable = StringVar(root, "4/2**2")
+entryVariable = StringVar(root, "26/9*5")
 entryVariable.trace_add("w", varChange)
 
 Entry(calcSide, textvariable=entryVariable, font=myFont, borderwidth=0).pack(
